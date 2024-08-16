@@ -1,0 +1,401 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    
+}
+#header{
+    height: 13%;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+#fake{
+    height: 13%;
+    width: 100%;
+    background-color: black;
+}
+#logo{
+    height: 70%;
+  
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text{
+    display: flex;
+    margin: 10px;
+    color: rgb(9, 9, 66);
+}
+.text:hover{
+    color: rgb(26, 171, 219);
+}
+#contact p{
+    font-weight: lighter;
+}
+#contact:hover{
+    color:rgb(26, 171, 219) ;
+}
+#icon{
+    
+    padding: 10px;
+    border-radius: 50%;
+}
+#icon:hover{
+    background-color: lightblue;
+}
+#login{
+    
+    border-radius: 50px;
+    padding: 10px;
+}
+#login:hover{
+    background-color: lightblue;
+}
+#try{
+    padding: 10px 20px;
+    background-color: rgb(36, 163, 49);
+    color: white;
+}
+#try:hover{
+    background-color: rgb(12, 105, 12);
+}
+#page1{
+    width: 100%;
+    height: 87%;
+    
+}
+#strip{
+    width: 100%;
+    height: 8%;
+    background-color: rgb(21, 21, 94);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#strip u{
+    font-weight:lighter;
+    margin: 20px;
+}
+#content{
+    width: 100%;
+    height: 76%;
+    display: flex;
+    align-items: center;
+   
+}
+
+#content video{
+    height: 70%;
+    width: 80vh;
+   border-radius: 10px;
+    margin: 70px;
+    object-fit: cover;
+    overflow: hidden;
+    margin-right: 10px;
+    
+}
+
+#box1 h1{
+    color: rgb(12, 12, 114);
+    font-size: 55px;
+    font-weight: 900;
+    margin: 50px 50px;
+}
+#box1 p{
+    margin: 10px;
+    font-size: 30px;
+    margin: 50px 50px;
+}
+#btns{
+    display: flex;
+    text-align: center;
+    
+
+    
+}
+#btn1{
+    border-radius: 5px;
+    width: 25vh;
+    background-color: rgb(42, 141, 254);
+    padding: 10px 20px;
+    color: white;
+    margin: 50px;
+}
+#btn1:hover{
+    background-color:rgb(18, 67, 123) ;
+}
+#btn2:hover{
+   background-color: lightblue;
+   color: rgb(5, 5, 51);
+   border-color: rgb(5, 5, 51) ;
+}
+#btn2{
+    border-radius: 5px;
+    width: 25vh;
+    border: 1px solid rgb(42, 141, 254);
+    padding: 10px 20px;
+    color: rgb(42, 141, 254);
+    margin: 50px;
+    
+    
+}
+#box1{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}
+#box2{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(8, 255, 148);
+    
+}
+#box2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#box2 {
+    background-image: url(Screenshot\ 2024-08-14\ 205147.png);
+ }
+
+
+#heading{
+    width: 100%;
+    height: 16%;
+    background-color: white;
+    color: rgb(12, 12, 114);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+    
+ 
+}
+
+
+#page2 h1{
+    color: rgb(12, 12, 114);
+    font-size: 22px;
+    font-weight: bold;
+    margin: 30px;  
+}
+
+#page2 u{
+   color: rgb(17, 17, 81)
+   
+}
+
+#page2 p{
+    margin: 30px;
+}
+
+#card1 img{
+    width: 100%;
+    height: 36%;
+    
+   
+    
+}
+#card2 img{
+    width: 100%;
+    height: 36%;
+   
+    
+}
+#card3 img{
+    width: 100%;
+    height: 36%;
+
+    
+}
+#card4 img{
+    width: 100%;
+    height: 36%;
+   
+}
+
+#card1{
+    
+    width: 280px;
+    height: 60%;
+    margin: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 15px;
+    margin-top: 20px;
+    overflow: hidden;
+    background-color: white;
+
+}
+#card2{
+   
+    width: 280px;
+    height: 60%;
+    margin: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin-top: 20px;
+    overflow: hidden;
+    background-color: white;
+}
+#card3{
+ 
+    width: 280px;
+    height: 60%;
+    margin: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin-top: 20px;
+    overflow: hidden;
+    background-color: white;
+}
+#card4{
+   
+    width: 280px;
+    height: 60%;
+    margin: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin-top: 20px;
+    overflow: hidden;
+    background-color: white;
+}
+
+#btn{
+    width: 100%;
+    height: 10%;
+   
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: lighter;
+   
+    
+    
+
+}
+#btn0{
+    border-radius: 3px;
+    width: 16%;
+    border: 2px solid rgb(59, 140, 216);
+    padding: 10px;
+    color: rgb(59, 140, 216);
+    margin-bottom: 10%;
+   
+}
+
+#banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 33%;
+}
+#page3{
+    width: 100%;
+    height: 90%;
+   
+}
+ 
+#heading1 h1{
+    font-size: 50px;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;  
+    color: rgb(12, 12, 114);
+}
+#para{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   font-size: 22px;
+   margin-top: 25px;
+   font-weight: lighter;
+}
+#heading2 h1{
+    font-size: 40px;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;  
+    color: rgb(13, 13, 105);
+}
+#para2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   font-size: 22px;
+   margin-top: 25px;
+   font-weight: lighter;
+}
+#btnss{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    
+   
+}
+#btn01{
+    background-color: rgb(42, 141, 254);
+    padding: 20px 20px;
+    width: 25vh;
+    color: white;
+    border-radius: 5px;
+
+}
+#btn01:hover{
+    background-color:rgb(18, 67, 123) ;
+}
+#btn01 p{
+    font-size: large;
+}
+#btn02 p{
+    font-size: large;
+   
+}
+#btn02{
+    border: 3px solid rgb(42, 141, 254);
+    padding: 20px 20px;
+    width: 25vh;
+    margin-left: 25px;
+    color: rgb(42, 141, 254);
+    border-radius: 5px;
+   
+   
+}
+#btn02:hover{
+    background-color: lightblue;
+    color: rgb(5, 5, 51);
+    border-color: rgb(5, 5, 51) ;
+ }
